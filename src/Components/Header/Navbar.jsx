@@ -1,6 +1,6 @@
 import { useState } from "react";
 import styles from "./Navbar.module.css";
-import foot from "../../assets/foots.svg";
+import lop from "../../assets/lop.svg";
 function Navbar() {
   // adding the states
   const [isActive, setIsActive] = useState(false);
@@ -17,7 +17,7 @@ function Navbar() {
       <header className="App-header">
         <nav className={`${styles.navbar}`}>
           {/* logo */}
-          <img src={foot} alt="logo" className="logo" />
+          <img src={lop} alt="logo" className="logo" />
           <ul className={`${styles.navMenu} ${isActive ? styles.active : ""}`}>
             <li onClick={removeActive}>
               <a href="#home" className={`${styles.navLink}`}>
