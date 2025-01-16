@@ -1,0 +1,114 @@
+.customers {
+  height: 130vh;
+  width: 100%;
+  /* outline: 2px solid greenyellow; */
+  padding: 15px 7%;
+  background-color: white;
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+@keyframes sappear {
+  from {
+    opacity: 0;
+    /* scale: 0.5; */
+    clip-path: inset(100% 100% 0 0);
+    /* transform: translateX(-100px); */
+  }
+  to {
+    opacity: 1;
+    /* scale: 1; */
+    /* transform: translateX(0px); */
+    clip-path: inset(0 0 0 0);
+  }
+}
+#main-hdd h1 {
+  background-color: white;
+}
+#main-hdd {
+  /* outline: 2px solid rgb(148, 214, 15); */
+  width: 100%;
+  height: 26vh;
+  padding: 40px;
+  text-align: center;
+  align-items: center;
+  color: rgb(88, 79, 79);
+  font-weight: 700;
+  background-color: white;
+  margin-bottom: 50px;
+  font-size: 25px;
+}
+#main-hdd span {
+  color: rgba(238, 149, 145, 1);
+  background-color: white;
+}
+#main-hdd p {
+  margin-top: 40px;
+  font-size: 17px;
+  background-color: white;
+  font-weight: 700;
+  color: rgb(88, 79, 79);
+}
+.Carrds2 {
+  /* outline: 2px solid red; */
+  display: flex;
+  padding: 5px;
+  background-color: white;
+  justify-content: space-between;
+  width: 100%;
+  height: 55vh;
+  flex-flow: wrap row;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.Carrds2 span {
+  background-color: white;
+}
+.card02 {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+
+  flex-wrap: wrap;
+  width: 220px;
+  height: 310px;
+  font-size: 50px;
+  border-radius: 1rem;
+  background-color: white;
+  outline: 5px solid white;
+
+  transition: all ease-in-out 0.3s;
+  box-shadow: rgba(234, 153, 153, 0.25) 0px 30px 60px -12px,
+    rgba(210, 129, 129, 0.552) 0px 18px 36px -18px;
+}
+
+.card02:hover {
+  box-shadow: rgb(226, 185, 185) 0px 5px 15px;
+}
+.ig9 {
+  object-fit: cover;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+}
+.nam {
+  /* outline: 2px solid blueviolet; */
+  height: 100px;
+  padding: 5px;
+  display: flex;
+  background-color: white;
+  flex-wrap: row wrap;
+  column-gap: 50px;
+}
+#name {
+  /* outline: 2px solid black; */
+  width: 220px;
+  font-weight: 600;
+  background-color: white;
+}
+#name p {
+  color: rgba(238, 149, 145, 1);
+  background-color: white;
+  font-weight: 700;
+  font-size: 13px;
+}

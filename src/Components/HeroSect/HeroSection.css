@@ -1,0 +1,120 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  background-color: #fef8f8;
+}
+.Hero-Section {
+  /* outline: 2px solid blue; */
+  z-index: 1;
+  padding: 15px 7%;
+  height: 80vh;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 10vh;
+}
+.inner-cont {
+  /* outline: 2px solid greenyellow; */
+  width: 593px;
+  height: 100%;
+  gap: 30px;
+}
+#heading {
+  font-family: Roboto;
+  font-size: 70px;
+  font-weight: 900;
+  line-height: 80px;
+  letter-spacing: 0.30000001192092896px;
+  text-align: left;
+  color: rgb(88, 79, 79);
+  /* outline: 2px solid peru; */
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-top: 90px;
+}
+#heading span {
+  font-family: "Roboto";
+  font-size: 70px;
+  font-weight: 900;
+  line-height: 80px;
+  letter-spacing: 0.30000001192092896px;
+  text-align: left;
+  text-underline-position: from-font;
+  color: rgba(238, 149, 145, 1);
+  text-decoration-skip-ink: none;
+}
+.inner-cont p {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: -0.30000001192092896px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+#para {
+  width: 100%;
+
+  gap: 0px;
+  margin-top: 20px;
+  opacity: 0px;
+  color: rgba(85, 85, 85, 1);
+  /* outline: 2px solid red; */
+}
+#radio {
+  /* outline: 2px solid violet; */
+  width: 100%;
+
+  gap: 30px;
+  opacity: 0px;
+  margin-top: 30px;
+}
+ul {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+#bottone1 {
+  padding-left: 33px;
+  padding-right: 33px;
+  padding-bottom: 16px;
+  padding-top: 16px;
+  border-radius: 9px;
+  background: #ee9591;
+  border: none;
+  color: #fff;
+  font-family: inherit;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 40px;
+  transition: 0.4s;
+}
+
+#bottone1:hover {
+  box-shadow: 7px 5px 56px -14px #ee9591;
+}
+
+#bottone1:active {
+  transform: scale(0.97);
+  box-shadow: 7px 5px 56px -10px #ee9591;
+}
+.outer-cont {
+  /* outline: 2px solid greenyellow; */
+  width: 593px;
+  height: 100%;
+  margin-top: 50px;
+  margin-right: 45px;
+  /* transition: transform 0.3s; */
+  /* transition-timing-function: cubic-bezier(0.4, 1.55, 0.74, 0.55); */
+}
+/* .outer-cont:hover {
+  transform: scale(1.11);
+} */
+#btn1 {
+  background-color: transparent;
+}
+#bottone1 strong {
+  background-color: transparent;
+}

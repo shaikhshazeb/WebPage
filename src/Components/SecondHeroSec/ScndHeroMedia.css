@@ -1,0 +1,59 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .Hero-Section2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    margin-top: -50px;
+  }
+  .inner-cont2 {
+    width: 100%;
+    height: 100%;
+  }
+  .outer-cont2 {
+    display: flex;
+    flex-flow: row wrap;
+    row-gap: 100px;
+    margin-top: 340px;
+    padding: 10px;
+    margin-left: 0;
+    width: 100%;
+    row-gap: 180px;
+  }
+  .bgmi {
+    display: none;
+  }
+
+  .Hero-Section2 {
+    width: 100%;
+    height: 100%;
+  }
+
+  #heading2 {
+    width: 100%;
+    height: 100%;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 2px;
+    margin-top: 0px;
+  }
+  #heading2 span {
+    width: 100%;
+    height: 100%;
+    font-size: 40px;
+    font-weight: 900;
+  }
+
+  .inner-cont2 p {
+    width: 100%;
+    height: 100%;
+  }
+  .card1 {
+    width: 100%;
+  }
+  .card2 {
+    width: 100%;
+    margin-left: 0px;
+  }
+}

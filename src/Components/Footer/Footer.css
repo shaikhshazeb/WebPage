@@ -1,0 +1,93 @@
+.Footers {
+  /* outline: 2px solid black; */
+  height: 50vh;
+  background-color: white;
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: space-between;
+  width: 100%;
+  animation: dappear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+.leftside {
+  /* outline: 2px solid rgb(47, 255, 0); */
+  background-color: rgba(238, 149, 145, 1);
+  border-radius: 0px 200px 0px 0px;
+  height: 50vh;
+  padding: 50px;
+  width: 30%;
+}
+.midside {
+  background-color: white;
+  /* outline: 2px solid rgb(255, 21, 0); */
+  height: 50vh;
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  padding-top: 80px;
+}
+.rightside {
+  /* outline: 2px solid rgb(255, 0, 251); */
+  background-color: white;
+  height: 50vh;
+
+  width: 30%;
+}
+.lop {
+  background-color: transparent;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.leftside p {
+  background-color: transparent;
+  color: white;
+  line-height: 1.5em;
+  margin-top: 20px;
+}
+.lop1 {
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+  padding-top: 75px;
+}
+.About {
+  /* border: 2px solid black; */
+  width: 12vw;
+  background-color: white;
+  height: 100%;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.support {
+  /* border: 2px solid black; */
+  width: 12vw;
+  height: 100%;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+}
+.About h1 {
+  font-size: 20px;
+  color: rgba(238, 149, 145, 1);
+  background-color: white;
+}
+.support h1 {
+  font-size: 20px;
+  background-color: white;
+  color: rgba(238, 149, 145, 1);
+}
+.support span {
+  color: rgba(238, 149, 145, 1);
+  background-color: white;
+}
+.support a {
+  background-color: white;
+}
+.About a {
+  background-color: white;
+}

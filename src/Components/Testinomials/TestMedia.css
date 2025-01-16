@@ -1,0 +1,42 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .test {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    margin-bottom: 200px;
+  }
+  #headss {
+    font-size: 1.5em;
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin: 0px;
+    padding-bottom: 0px;
+    height: 15vh;
+  }
+  .inner-got {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  #girl {
+    width: 30vw;
+    height: 17vh;
+  }
+  .kit {
+    height: 80px;
+  }
+  #headd {
+    height: 20vh;
+    font-size: 1em;
+    line-height: 0;
+    margin-left: 10px;
+  }
+  #headd span {
+    font-size: 1em;
+    line-height: 2;
+    height: 17vh;
+  }
+}

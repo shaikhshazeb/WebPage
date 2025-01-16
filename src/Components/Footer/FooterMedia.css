@@ -1,0 +1,19 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .Footers {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(254, 248, 248, 1);
+  }
+  .rightside {
+    display: none;
+  }
+  .midside {
+    display: none;
+  }
+  .leftside {
+    width: 100%;
+    height: 100%;
+    padding-left: 10px;
+  }
+}

@@ -1,0 +1,58 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .main-cards {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column wrap;
+  }
+  .card-heading {
+    font-size: 0.7em;
+    width: 100%;
+  }
+  .Carrds {
+    padding-top: 20px;
+    display: flex;
+
+    padding-top: 15px;
+    column-gap: 20px;
+    margin-top: 0px;
+    margin-bottom: 280px;
+  }
+  .card0 {
+    margin: 0;
+    padding: 0;
+    height: 150px;
+    width: 120px;
+    padding: 10px;
+  }
+  .bgg {
+    display: none;
+  }
+  .ig1 {
+    height: 60px;
+    width: 60px;
+    margin-top: 10px;
+  }
+  .ig2 {
+    margin-top: 25px;
+    height: 40px;
+    width: 40px;
+    padding-left: 10px;
+  }
+  .ig3 {
+    height: 60px;
+    width: 60px;
+    margin-top: 10px;
+  }
+  .ig4 {
+    margin-top: 25px;
+    height: 40px;
+    width: 40px;
+    padding-left: 10px;
+  }
+  .card0 p {
+    text-align: center;
+    font-size: 0.3em;
+  }
+}

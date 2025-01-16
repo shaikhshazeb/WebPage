@@ -1,0 +1,89 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .selling-section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    margin-top: -100px;
+  }
+  #main-hd {
+    font-size: 0.7em;
+    padding-top: 10px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+  }
+  #main-hd p {
+    display: none;
+  }
+  .innner-sl {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .inside-sl {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    row-gap: 40px;
+    column-gap: 20px;
+    margin-bottom: 100px;
+
+    justify-content: center;
+  }
+  .card12 {
+    margin: 0;
+    padding: 0;
+    height: 150px;
+    width: 130px;
+  }
+  .card21 {
+    margin: 0;
+    padding: 0;
+    height: 150px;
+    width: 130px;
+  }
+  .card31 {
+    margin: 0;
+    padding: 0;
+    height: 150px;
+    width: 130px;
+  }
+  .card32 {
+    margin: 0;
+    padding: 0;
+    height: 150px;
+    width: 130px;
+  }
+  .inner-cont3 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column wrap;
+  }
+  #heading3 {
+    font-size: 1.5em;
+    margin-bottom: 0px;
+  }
+  #heading3 span {
+    font-size: 1.5em;
+  }
+  #para3 {
+    margin-top: 0px;
+    padding: 0px;
+  }
+  #radio2 ul {
+    margin-top: -50px;
+    padding: 0px;
+  }
+  #radio2 ul li {
+    font-weight: 500;
+    font-size: 10px;
+  }
+}
